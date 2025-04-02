@@ -3,10 +3,13 @@ import streamlit as st
 import time
 
 st.set_page_config(
-    page_title="贷前作业智能助手",
+    page_title="贷前作业智能助手系统",
+    page_icon=":robot:",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
+
+st.sidebar.success("请选择以上的功能页面开始使用。")
 
 # ============ 样式 ============
 st.markdown("""
